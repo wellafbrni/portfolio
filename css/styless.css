@@ -2,12 +2,23 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+}
+
 body {
   font-family: "SORA", sans-serif;
   background: #fff;
   color: #000;
   line-height: 1.6;
   transition: 0.3s ease, color 0.3s ease;
+  -webkit-transition: 0.3s ease, color 0.3s ease;
+  -moz-transition: 0.3s ease, color 0.3s ease;
+  -ms-transition: 0.3s ease, color 0.3s ease;
+  -o-transition: 0.3s ease, color 0.3s ease;
 }
 
 img {
@@ -289,10 +300,11 @@ img {
 .marquee-content {
   display: inline-flex;
   gap: 3rem;
-  animation: marquee 60s linear infinite;
+  animation: marquee 25s linear infinite;
   will-change: transform;
   backface-visibility: hidden;
   perspective: 1000;
+  -webkit-animation: marquee 25s linear infinite;
 }
 .frame-skill {
   display: flex;
@@ -306,23 +318,28 @@ img {
 .skill-item {
   align-items: center;
   gap: 0.5rem;
-  width: 313px;
+  margin-right: 5.5rem;
+  /* width: 350px; */
   height: 70px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  /* justify-content: space-between; */
   gap: 10px;
 }
 
 .skill-item img {
+  /* border: 1px solid red; */
+
   width: 70px;
   position: relative;
   max-height: 100%;
   object-fit: cover;
 }
 .skill-item p {
+  /* border: 1px solid red; */
+
   font-weight: 600;
-  width: 100%;
+  /* width: 100%; */
   font-size: 2rem;
 }
 
@@ -418,6 +435,7 @@ img {
 /* EXPERIENCE */
 .experience {
   background-color: #000000;
+  /* width: 100%; */
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -788,18 +806,17 @@ img {
   background: #000;
   color: #fff;
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 0  2rem ;
+  width: 100%;
 }
 
-.footer-container {
-  padding: 0rem 4rem;
-}
 
 .footer-hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 25px;
 }
 
 .footer p {
