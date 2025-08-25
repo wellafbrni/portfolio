@@ -17,11 +17,19 @@
         <div class="logo">
           <a href="#personal"><strong>Foxesign.</strong></a>
         </div>
-        <nav class="nav">
+        
+        <!-- Mobile Menu Toggle Button -->
+        <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+        <nav class="nav" id="nav-menu">
           <ul>
-            <a class="navbar" href="#about">About Me</a>
-            <a class="navbar" href="#project">Project</a>
-            <a class="navbar" href="#contact">Contact</a>
+            <li><a class="navbar" href="#about">About Me</a></li>
+            <li><a class="navbar" href="#project">Project</a></li>
+            <li><a class="navbar" href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -33,7 +41,7 @@
       <div class="hero-content">
         <div class="hero-text">
           <div class="intro">
-            <div class="hello">Hello I’am</div>
+            <div class="hello">Hello I'm</div>
             <div class="name">Wellafbrni.</div>
           </div>
           <div class="intro">
@@ -43,7 +51,7 @@
             <div class="location">Based In <strong>Riau.</strong></div>
           </div>
           <p class="desc">
-            I’m Wella Pebriani, a passionate UI/UX designer with a drive to continuously learn, stay updated with trends, and perfect every detail of the design process.
+            I'm Wella Pebriani, a passionate UI/UX designer with a drive to continuously learn, stay updated with trends, and perfect every detail of the design process.
           </p>
           <div class="cta">
             <a
@@ -66,80 +74,133 @@
 
     <!-- Skills Section -->
     <section class="skills">
-      <div class="skill-container">
-        <div class="marquee">
-          <div class="marquee-content">
-            <div class="frame-skill">
-            <div class="skill-item">
-              <img src="assets/icon/ui-design.png" alt="UI Design" />
-              <p>UI Design</p>
-            </div>
-            <div class="skill-item">
-              <img src="assets/icon/ux-design.png" alt="UX Design" />
-              <p>UX Design</p>
-            </div>
-            <div class="skill-item">
-              <img
-                src="assets/icon/user-experience (1).png"
-                alt="UX Research"
-              />
-              <p>UX Research</p>
-            </div>
-            <div class="skill-item">
-              <img src="assets/icon/wireframing.png" alt="Wireframing" />
-              <p>Wireframing</p>
-            </div>
-            <div class="skill-item">
-              <img src="assets/icon/prototyping.png" alt="Prototyping" />
-              <p>Prototyping</p>
-            </div>
-            <div class="skill-item">
-              <img src="assets/icon/figma (1).png" alt="Figma" />
-              <p>Figma</p>
-            </div>
-            <div class="skill-item">
-              <img src="assets/icon/html.png" alt="HTML" />
-              <p>HTML</p>
-            </div>
-            <div class="skill-item">
-              <img src="assets/icon/css-3.png" alt="CSS" />
-              <p>CSS</p>
-            </div>
-            <div class="skill-item">
-              <img src="assets/icon/canva.png" alt="Canva" />
-              <p>Canva</p>
-            </div>
-            <div class="skill-item">
-              <img src="assets/icon/creative.png" alt="Creative" />
-              <p>Creative</p>
-            </div>
-            <div class="skill-item">
-              <img
-                src="assets/icon/problem solving.png"
-                alt="Problem Solving"
-              />
-              <p>Problem Solving</p>
-            </div>
-            <div class="skill-item">
-              <img
-                src="assets/icon/team-management.png"
-                alt="Team Management"
-              />
-              <p>Team Management</p>
-            </div>
-            <div class="skill-item">
-              <img src="assets/icon/inovative.png" alt="Innovative" />
-              <p>Innovative</p>
-            </div>
-            <div class="skill-item">
-              <img src="assets/icon/collaboration.png" alt="Collaboration" />
-              <p>Collaboration</p>
-            </div>
-            </div>
+  <div class="skill-container">
+    <div class="marquee">
+      <div class="marquee-content">
+        <!-- frame pertama -->
+        <div class="frame-skill">
+          <div class="skill-item">
+            <img src="assets/icon/ui-design.png" alt="UI Design" />
+            <p>UI Design</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/ux-design.png" alt="UX Design" />
+            <p>UX Design</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/user-experience (1).png" alt="UX Research" />
+            <p>UX Research</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/wireframing.png" alt="Wireframing" />
+            <p>Wireframing</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/prototyping.png" alt="Prototyping" />
+            <p>Prototyping</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/figma (1).png" alt="Figma" />
+            <p>Figma</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/html.png" alt="HTML" />
+            <p>HTML</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/css-3.png" alt="CSS" />
+            <p>CSS</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/canva.png" alt="Canva" />
+            <p>Canva</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/creative.png" alt="Creative" />
+            <p>Creative</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/problem solving.png" alt="Problem Solving" />
+            <p>Problem Solving</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/team-management.png" alt="Team Management" />
+            <p>Team Management</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/inovative.png" alt="Innovative" />
+            <p>Innovative</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/collaboration.png" alt="Collaboration" />
+            <p>Collaboration</p>
+          </div>
+        </div>
+
+        <!-- frame kedua (duplikat untuk looping mulus) -->
+        <div class="frame-skill">
+          <!-- copy semua skill-item di atas -->
+          <div class="skill-item">
+            <img src="assets/icon/ui-design.png" alt="UI Design" />
+            <p>UI Design</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/ux-design.png" alt="UX Design" />
+            <p>UX Design</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/user-experience (1).png" alt="UX Research" />
+            <p>UX Research</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/wireframing.png" alt="Wireframing" />
+            <p>Wireframing</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/prototyping.png" alt="Prototyping" />
+            <p>Prototyping</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/figma (1).png" alt="Figma" />
+            <p>Figma</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/html.png" alt="HTML" />
+            <p>HTML</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/css-3.png" alt="CSS" />
+            <p>CSS</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/canva.png" alt="Canva" />
+            <p>Canva</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/creative.png" alt="Creative" />
+            <p>Creative</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/problem solving.png" alt="Problem Solving" />
+            <p>Problem Solving</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/team-management.png" alt="Team Management" />
+            <p>Team Management</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/inovative.png" alt="Innovative" />
+            <p>Innovative</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/icon/collaboration.png" alt="Collaboration" />
+            <p>Collaboration</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
     <!-- Experience Section -->
     <section class="experience">
@@ -202,6 +263,7 @@
 
     <!-- About Section -->
     <section id="about" class="about">
+      <p class="subtitle">Introduction</p>
       <div class="Tittle" h2><span>About</span>Me</h2></div>
       <div class="about-container">
         <div class="about-img">
@@ -217,14 +279,14 @@
           <div class="about-card">
           <!-- Education Card -->
           <div class="card">
-            <div class="card-icon">🎓
+            <div class="card-icon">📚
             <h3>Education</h3></div>
             <p>Bachelor's degree in Information System</p>
           </div>
 
           <!-- Education Card -->
           <div class="card">
-            <div class="card-icon">🎓
+            <div class="card-icon">📚
             <h3>Education</h3></div>
             <p>Bachelor's degree in Information System</p>
           </div>  
@@ -237,7 +299,10 @@
     <section id="project" class="projects">
       <div class="projects-design">
        <div class="Tittle" h2><span>My</span> Projects</h2></div>
-       <p>Mengubah Visi Menjadi Pengalaman Digital yang Menginspirasi</p>
+       <p class="description">
+          Welcome to my web development portfolio! Explore a collection of projects showcasing my 
+          expertise in fullstack development.
+        </p>
         <!-- 1 Projects cashier -->
        <div class="proj-card">
         <div class="project-item">
@@ -251,7 +316,7 @@
               efficient interface. Created to ease the daily sales management
               for SME entrepreneurs.
             </p>
-            <a href="#" class="btn">
+            <a href="#" class="btn-program">
                 Show more
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -272,7 +337,7 @@
               include a student dashboard, interactive materials, and progress
               tracker with user-friendly and structured design.
             </p>
-            <a href="#" class="btn">
+            <a href="#" class="btn-program">
                 Show more
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -296,7 +361,7 @@
               communicativity, and reflects the character of the business to
               make it easily recognizable by customers.
             </p>
-            <a href="#" class="btn">
+            <a href="#" class="btn-program">
                 Show more
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -317,7 +382,7 @@
               on a practical and modern shopping experience, with features such
               as product catalog, filters, and easy checkout.
             </p>
-            <a href="#" class="btn">
+            <a href="#" class="btn-program">
                 Show more
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -328,6 +393,8 @@
         </div>
         </div>
         </div>
+
+        <!--Project PROGRAM-->
         <div class="project-program">
         <!-- 5 Projects Sentiment Analysis -->
         <div class="proj-card">
@@ -341,7 +408,7 @@
               sentiment from social media data. Created as part of a thesis
               research, with integration of NLP and data visualization.
             </p>
-            <a href="#" class="btn">
+            <a href="#" class="btn-program">
                 Show more
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -361,7 +428,7 @@
               and JavaScript. It displays information on travel destinations,
               image galleries, and a responsive layout for various devices.
             </p>
-            <a href="#" class="btn">
+            <a href="#" class="btn-program">
                 Show more
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -376,8 +443,13 @@
 
     <!-- Services Section -->
     <section class="services">
+        <!-- <p class="subtitle">My portfolio</p> -->
+        <h2 class="title">What I Bring to the Table.</h2>
+        <p class="description">
+          Welcome to my web development portfolio! Explore a collection of projects showcasing my 
+          expertise in fullstack development.
+        </p>
       <div class="Services-container">
-        <h2>What I Bring to the Table.</h2>
         <div class="service-grid">
           <div class="service-card">
             <div class="heading-service">
@@ -439,18 +511,14 @@
           <input type="email" placeholder="Email" />
           <input type="text" placeholder="Your website (If exists)" />
           <textarea placeholder="How can I help?*"></textarea>
-          <button class="btn dark">Get In Touch</button>
+          <a href="submit" type="submit" class="btn dark">Get In Touch</a>
         </div>
         <div class="contact-text">
           <div class="contact-header">
-              <div class="text1">Let’s</div>
-              <div class="text2">talk</div>
+              <div class="text1">Let's</div>
+              <div class="title">talk</div>
               <div class="text1">for</div>
             </div>
-
-
-          <!-- <h2><span>Let’s</span> talk <span>for</span></h2> -->
-
           <h3>Something special</h3>
           <p>
             I strive to transform ideas into intuitive and impactful digital
@@ -488,5 +556,8 @@
         <p>&copy; 2025 wellafbrni</p>
       </div>
     </footer>
+
+    <!-- Mobile Menu JavaScript -->
+    <script src="js/javascripts.js"></script>
   </body>
 </html>
